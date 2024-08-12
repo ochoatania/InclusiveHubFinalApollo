@@ -1,0 +1,166 @@
+.autism-buddy-mrfox {
+  margin: 0;
+  font-weight: 800;
+  white-space: pre-wrap;
+}
+.span1 {
+  font-size: var(--font-size-lg);
+}
+.inspire-include-empower4 {
+  font-weight: 500;
+}
+.inspire-include-empower3 {
+  margin: 0;
+  font-size: var(--font-size-2xs);
+}
+.autism-buddy-mrfox-container {
+  height: 54px;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+}
+.frame14,
+.frame15,
+.frame16 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+}
+.frame16 {
+  background: linear-gradient(90deg, #bba9ef 21.5%, #e0d9f7 70.5%);
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 15px var(--padding-3xs) var(--padding-5xs);
+}
+.frame14,
+.frame15 {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.frame14 {
+  margin-top: -154px;
+  margin-left: -2px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-mulish);
+}
+.frame17,
+.rectangle-div {
+  align-self: stretch;
+  flex: 1;
+  max-width: 100%;
+}
+.rectangle-div {
+  position: relative;
+}
+.frame17 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buddy-fox {
+  margin: 0;
+  font-weight: 500;
+}
+.your-helpful-companion {
+  margin: 0;
+  font-size: var(--font-size-xs);
+  font-weight: 300;
+  font-family: var(--font-roboto);
+}
+.title {
+  position: relative;
+  line-height: 22px;
+}
+.frame18,
+.frame19,
+.seconday,
+.title-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frame18,
+.frame19,
+.seconday {
+  flex-direction: column;
+  align-items: flex-end;
+}
+.seconday {
+  align-self: stretch;
+  height: 44px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-mediumpurple);
+  box-sizing: border-box;
+  padding: 0 33px;
+}
+.frame18,
+.frame19 {
+  overflow: hidden;
+}
+.frame19 {
+  width: 224px;
+  padding: 0 0 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.frame18 {
+  width: 319px;
+  flex-shrink: 0;
+}
+.frame-parent2,
+.frame-wrapper2 {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.frame-wrapper2 {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+}
+.frame-parent2 {
+  height: 618px;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 var(--padding-4xl) var(--padding-10xl) 0;
+  box-sizing: border-box;
+  gap: 44.5px;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-mediumpurple);
+  font-family: var(--font-mulish);
+}
+.component-5-icon,
+.page-2 {
+  position: relative;
+  overflow: hidden;
+}
+.component-5-icon {
+  margin-left: -2px;
+  align-self: stretch;
+  max-width: 100%;
+  max-height: 100%;
+}
+.page-2 {
+  width: 100%;
+  height: 932px;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 153px 0 0;
+  box-sizing: border-box;
+  gap: 77px;
+  line-height: normal;
+  letter-spacing: normal;
+}

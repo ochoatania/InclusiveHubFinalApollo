@@ -1,0 +1,31 @@
+.title15 {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 22px;
+  font-family: var(--font-mulish);
+  color: var(--color-gray-100);
+  text-align: left;
+}
+.primary,
+.primary-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.primary {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-15xl);
+  background-color: var(--color-lavender);
+  flex: 1;
+  border-radius: var(--br-5xs);
+  white-space: nowrap;
+}
+.primary:hover {
+  background-color: var(--color-thistle);
+}
+.primary-wrapper {
+  align-self: stretch;
+  padding: 0 var(--padding-xs);
+}

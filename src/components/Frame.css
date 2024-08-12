@@ -1,0 +1,77 @@
+.title7 {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 22px;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-mediumpurple);
+  text-align: left;
+}
+.seconday1 {
+  cursor: pointer;
+  border: 1px solid var(--color-mediumpurple);
+  padding: var(--padding-5xs) var(--padding-39xl);
+  background-color: var(--color-white);
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.seconday1:hover,
+.seconday2:hover {
+  background-color: var(--color-gainsboro);
+  border: 1px solid var(--color-slateblue);
+  box-sizing: border-box;
+}
+.title8 {
+  position: relative;
+  font-size: var(--font-size-xs);
+  line-height: 22px;
+  font-weight: 100;
+  font-family: var(--font-roboto);
+  color: var(--color-mediumpurple);
+  text-align: left;
+  display: inline-block;
+  min-width: 112px;
+}
+.button,
+.frame20,
+.seconday2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+}
+.seconday2 {
+  cursor: pointer;
+  border: 1px solid var(--color-mediumpurple);
+  padding: var(--padding-5xs) var(--padding-xl);
+  background-color: var(--color-white);
+  border-radius: var(--br-5xs);
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.button,
+.frame20 {
+  overflow: hidden;
+}
+.button {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs);
+  gap: var(--gap-5xs);
+}
+.frame20 {
+  align-items: flex-end;
+  justify-content: center;
+}
+@media screen and (max-width: 364px) {
+  .seconday1 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

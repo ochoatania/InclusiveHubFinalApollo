@@ -1,0 +1,66 @@
+.rigemini-fill-icon2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 33px;
+  height: 24px;
+  overflow: hidden;
+}
+.gemini-als-assistant {
+  align-self: stretch;
+  position: relative;
+  line-height: 18px;
+  background: linear-gradient(90deg, #bba9ef, #8cadf7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.vector-icon7 {
+  height: 30px;
+  width: 28px;
+  position: relative;
+  cursor: pointer;
+}
+.vector-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-3xl);
+}
+.gemini-als-assistant-parent {
+  position: absolute;
+  top: 3px;
+  left: 32px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.rigemini-fill-parent {
+  height: 83px;
+  flex: 1;
+  position: relative;
+}
+.frame-wrapper4 {
+  width: 348px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-39xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-base);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 348px) {
+  .frame-wrapper4 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
